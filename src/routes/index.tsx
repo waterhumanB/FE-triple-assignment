@@ -1,5 +1,12 @@
+import { Container } from './style'
+import Main from './Main'
+
 const App = () => {
-  return <div>APP</div>
+  return (
+    <Container>
+      <Main />
+    </Container>
+  )
 }
 
 export default App
