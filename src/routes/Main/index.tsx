@@ -1,13 +1,14 @@
 import { TripleImg, PlayStoreImg, AppleImg } from '../../assets/images'
 import { Award } from '../../components/Award'
 import { Record } from '../../components/Record'
+import { AppImg } from '../../components/AppImg'
 
-import { AppImg, Container, AwardWrap, RecordWrap } from './styles'
+import { Container, AwardWrap, RecordWrap } from './styles'
 
 const Main = () => {
   return (
     <Container>
-      <AppImg backImg={TripleImg}>2021년 12월 기준</AppImg>
+      <AppImg backImg={TripleImg} byDate="2021년 12월 기준" />
       <RecordWrap>
         <Record value={700} unit="만 명" dsec="의 여행자" />
         <Record value={100} unit="만 개" dsec="의 여행 리뷰" />

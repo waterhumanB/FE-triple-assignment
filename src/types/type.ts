@@ -14,3 +14,8 @@ export interface RecordProps {
   unit: string
   dsec: string
 }
+
+export interface AppImgProps {
+  byDate: string
+  backImg: string
+}
