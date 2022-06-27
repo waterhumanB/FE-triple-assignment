@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/FE-triple-assignment/static/js/main.2d6e1f6c.js",
+    "static/media/triple2x.png": "/FE-triple-assignment/static/media/triple2x.4424a6c6aa6d510c2435.png",
+    "static/media/play-store2x.png": "/FE-triple-assignment/static/media/play-store2x.70f694a27592524eb43a.png",
+    "static/media/badge-apple4x.png": "/FE-triple-assignment/static/media/badge-apple4x.5012cb26890fe79618eb.png",
+    "index.html": "/FE-triple-assignment/index.html",
+    "main.2d6e1f6c.js.map": "/FE-triple-assignment/static/js/main.2d6e1f6c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.2d6e1f6c.js"
+  ]
+}
