@@ -17,14 +17,14 @@ export const Container = styled.section`
   align-items: center;
   position: relative;
   animation-name: ${fadeIn};
-  animation-duration: 1.5s;
+  animation-duration: 0.7s;
 `
 export const RecordWrap = styled.section`
   margin-left: 780px;
   padding-top: 115px;
   opacity: 0;
   animation-name: ${fadeIn};
-  animation-duration: 1.5s;
+  animation-duration: 0.7s;
   animation-delay: 0.1s;
   animation-fill-mode: forwards;
 `
@@ -34,7 +34,7 @@ export const AwardWrap = styled.ul`
   white-space: nowrap;
   opacity: 0;
   animation-name: ${fadeIn};
-  animation-duration: 1.5s;
-  animation-delay: 0.5s;
+  animation-duration: 0.7s;
+  animation-delay: 0.2s;
   animation-fill-mode: forwards;
 `
