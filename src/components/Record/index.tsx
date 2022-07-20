@@ -3,8 +3,8 @@ import { RecordProps } from '../../types/type'
 
 import { RecordItem } from './styles'
 
-export const Record = ({ value, unit, dsec }: RecordProps) => {
-  const count = useCounter(value)
+export const Record = ({ unit, dsec }: RecordProps) => {
+  const count = useCounter(5000, 179, 3000)
   return (
     <RecordItem>
       <strong>
